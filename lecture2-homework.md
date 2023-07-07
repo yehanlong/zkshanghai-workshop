@@ -1,5 +1,11 @@
 # 第2课 课后作业
+### 转换为bit位 Num2Bits 
 
+- 参数：`nBits`
+- 输入信号：`in`
+- 输出信号：`b[nBits]`
+
+输出信号应该是长度为`nBits`的位数组，相当于`in`的二进制表示。 `b[0]` 是最低有效位。
 ```Solidity
 template Num2Bits(n) {
     signal input in;
